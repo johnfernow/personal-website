@@ -1,0 +1,24 @@
+/* Exists to get the footer at the bottom of the page,
+   leaving space between it and short content,
+   or placing it below content that is taller than the viewport.
+   Based off of this guide:
+   https://medium.com/@kayodeniyi/understanding-the-sticky-footer-trick-1e5686c232b6
+
+   However, if I find later that's not a good implementation, I can try this instead:
+   https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main {
+  flex: 1;
+}
+footer {
+}
