@@ -5,11 +5,37 @@
 <html>
   <head>
     {% include head.html %}
+    <link rel="stylesheet" href="css/homepage.css">
   </head>
+
   <body>
     {% include header.html %}
     <main>
-      <h1>Hello World!</h1>
+
+      <h1 id="page-title">John Fernow</h1>
+
+      <div class="container"> <!-- used to place image to left, text to right, if space -->
+        <div class="row align-items-center">
+
+          <div class="col-md">
+            <img class="img-fluid" src="/images/homepage-portrait.jpg">
+          </div>
+
+          <div class="col-md">
+            <h4>Hi there! I'm John Fernow, a senior year Computer Science undergraduate
+              student at Denison University with an interest in software development.
+              <br><br>
+              Aside from coding, I am passionate about learning how to reduce climate
+              change and most effectively help those in extreme poverty.
+              <br><br>
+              Looking for a developer to hire? Check out my
+              <a href="#">skills</a> and <a href="#">projects</a> pages!
+            </h4>
+          </div>
+
+        </div>
+      </div>
+
     </main>
     {% include footer.html %}
   </body>
