@@ -1,0 +1,43 @@
+/* TODO:
+   - organize CSS, maybe alphabetize */
+
+table {
+    table-layout: fixed;
+    padding:0px 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+  padding: 1em;
+}
+
+.column1 {
+    /* background:red; */
+    height:100%;
+}
+.column2 {
+    /* background:blue; */
+    height:100%;
+}
+@media (max-width:768px) {
+    th {
+        width:100%;
+        display: block;
+        margin:10px 0px;
+    }
+}
+
+.progress {
+  margin-bottom: 2em;
+  background-color: rgba(77, 87, 99, 0.13);
+}
+
+h2 {
+  text-align: center;
+}
+
+#other-skills {
+  text-align: center;
+}
