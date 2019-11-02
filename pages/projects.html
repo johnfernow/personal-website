@@ -1,0 +1,119 @@
+---
+permalink: /projects/
+---
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/projects.css">
+  </head>
+
+  <body>
+    {% include header.html %}
+    <main>
+
+      <!-- TODO: refactor — card-decks aren't really that responsive. Right now,
+                 it changes from a ton of columns to 1 one column. Would be
+                 better if they gradually reducded to fewer columns,
+                 from n to n-1 to ... to 4 to 3 to 2 to 1. -->
+
+      <div class="card-deck" id="projects-deck">
+
+        <div class="card">
+          <img src="https://raw.githubusercontent.com/johnfernow/media-controls-for-all/master/images/english/logo_en.png"
+               class="card-img-top" alt="Media Controls for All logo">
+          <div class="card-body">
+            <h5 class="card-title">Media Controls for All</h5>
+            <p class="card-text">
+              A multilingual program I created that adds volume and music controls to keyboards that
+              don't have dedicated buttons for them.
+            </p>
+            <h4 class="card-text">
+              <a class="nav-link active" href="https://github.com/johnfernow/media-controls-for-all" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+              </a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- TODO: add this image to the GitHub repo and readme, then just
+               just link to that, like how I did for Media Controls for All -->
+          <img src="{{site.baseurl}}/images/measles-mania-title.jpg"
+               class="card-img-top" alt="Measles Mania logo">
+          <div class="card-body">
+            <h5 class="card-title">Measles Mania</h5>
+            <p class="card-text">
+              A web game developed by me and 3 others for a class project. It's
+              admittedly a little rough on the edges due to time restraints, but
+              hopefully you get a couple laughs out of it and find it fun.
+            </p>
+            <p class="card-text">
+              <a href="https://personal.denison.edu/~lalla/314s19/final/measlesmania/index.html" target="_blank" rel="noopener noreferrer">
+                Play it here.
+              </a>
+            </p>
+            <!-- TODO: Uncomment once repo is public -->
+            <!-- <h4 class="card-text">
+              <a class="nav-link active" href="https://github.com/johnfernow/MeaslesMania" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+              </a>
+            </h4> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">My personal website</h5>
+            <p class="card-text">
+              A responsive (mobile and desktop friendly), multilingual website
+              with optimized page sizes (such as the use of vector images when
+              possible and optimal, loading minified JavaScript and CSS from fast CDNs) that
+              utilizes Jekyll to improve code format for easier editing.
+            </p>
+            <h4 class="card-text">
+              <a class="nav-link active" href="https://github.com/johnfernow/Personal-Website" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+              </a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="{{site.baseurl}}/images/mydenison-logo.jpg"
+               class="card-img-top" alt="MyDenison logo">
+          <div class="card-body">
+            <h5 class="card-title">MyDenison</h5>
+            <p class="card-text">
+              The internal website for students and staff members at Denison
+              University, that displays various information, such as announcements,
+              campus events, student jobs, account balances, grades and so much
+              more. I worked on making the website responsive, converting it to
+              a new version of a CMS, and created and modified web apps for it.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="{{site.baseurl}}/images/UAI-logo.jpg"
+               class="card-img-top" alt="Universidad Adolfo Ibáñez logo">
+          <div class="card-body">
+            <h5 class="card-title">Lila</h5>
+            <p class="card-text">
+              A multiplatform program used to take programming exams on students'
+              own laptops, but has numerous measures to prevent cheating: it
+              forces fullscreen mode and prevents minimization, alt-tabbing,
+              or viewing any other application until you click to finish the exam,
+              among many other measures. I fixed errors related to the internal
+              Python shell students use to answer questions, implemented
+              plagiarism verification, and worked on the exam correction mode.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

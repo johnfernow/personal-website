@@ -1,0 +1,11 @@
+@media (max-width:1000px) {
+  .card-deck {
+    flex-flow: column;
+  }
+}
+
+@media (max-width:1000px) {
+  .card {
+    margin-bottom: 15px !important;
+  }
+}
