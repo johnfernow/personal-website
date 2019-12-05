@@ -30,13 +30,13 @@ is recommended)
     were `192.168.1.5`, and jekyll printed `Server address: http://0.0.0.0:4000`,
     go to the address 192.168.1.5:4000 on your phone's browser (or other device
     that you're testing on).
-  * NOTE: if the site looks different locally than when published, it's likely
-  because GitHub Pages is running a different version of Jekyll than what is
-  installed locally.
-    * If that becomes too much of a hassle, the project can always be built
-    locally and published to a branch called `gh-pages` (after configuring that to be
-    the source build page) and include a `.nojekyll` file so GitHub won't try to
-    rebuild it.
+* NOTE: if the site looks different locally than when published, it's likely
+because GitHub Pages is running a different version of Jekyll than what is
+installed locally.
+  * If that becomes too much of a hassle, the project can always be built
+  locally and published to a branch called `gh-pages` (after configuring that to be
+  the source build page) and include a `.nojekyll` file so GitHub won't try to
+  rebuild it.
 * NOTE: `{{site.url}}` will direct to the homepage fine locally but seems to fail
 if the URL is a GitHub Pages project page (not a GitHub Pages user or
 organization page or a custom URL). This can be resolved by specifying
