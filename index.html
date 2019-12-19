@@ -18,7 +18,7 @@
     <p data-localize="message">Optional callback never happened.</p>
     <script type="text/javascript" charset="utf-8">
     $(function(){
-      var opts = { language: "ja", pathPrefix: "{{site.baseurl}}/localizations/lang", skipLanguage: "en-US" };
+      var opts = { pathPrefix: "{{site.baseurl}}/localizations/lang" };
       opts.callback = function(data, defaultCallback) {
         data.message = "Optional call back works."
         $("[data-localize]").css({color: "#FF8833"})
