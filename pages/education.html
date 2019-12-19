@@ -1,0 +1,129 @@
+---
+permalink: /education/
+---
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/projects.css">
+  </head>
+
+  <body>
+    {% include header.html %}
+    <main>
+
+      <!-- TODO: refactor — card-decks aren't really that responsive. Right now,
+                 it changes from a ton of columns to 1 one column. Would be
+                 better if they gradually reducded to fewer columns,
+                 from n to n-1 to ... to 4 to 3 to 2 to 1. -->
+
+      <div class="card-deck" id="projects-deck">
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Denison-logo.svg"
+               class="card-img-top" alt="Denison University logo">
+          <div class="card-body">
+            <h5 class="card-title">Denison University</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Undergrad</h6>
+            <p class="card-text">
+              I will graduate in May 2020 with a bachelors in Computer Science.
+              <a href="https://web.archive.org/web/20191115152736/https://www.usnews.com/best-colleges/denison-university-3042/overall-rankings"
+                 target="_blank" rel="noopener noreferrer">
+                 According to the 2020 U.S. News & World Report college and
+                 university rankings</a>,
+              Denison ranked 45th in "Best Undergraduate
+              Teaching" in the US. A compilation of reviews can be viewed
+              <a href="https://denison.edu/campus/about/rankings-reviews"
+                 target="_blank" rel="noopener noreferrer">here</a>.
+            </p>
+            <p>At Denison, I took the following classes:</p>
+            <ul>
+              <li>Data Structures</li>
+              <li>Data Systems</li>
+              <li>Computer Systems</li>
+              <li>Algorithm Design and Analysis</li>
+              <li>Game Design</li>
+              <li>Mathematical Foundations of Computer Science</li>
+              <li>Intermediate Computer Science</li>
+              <li>Introduction to Computer Science: Scientific Data</li>
+            </ul>
+            <!-- TODO #28 -- add transcripts once they become available -->
+            <!-- <h5 class="card-text">
+              <a class="nav-link active" href="ADD-URL-HERE" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-pdf"></i> download transcript
+              </a>
+            </h5> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Logo_Universidad_Adolfo_Ib%C3%A1%C3%B1ez.JPG"
+               class="card-img-top" alt="Universidad Adolfo Ibáñez logo">
+          <div class="card-body">
+            <h5 class="card-title">Universidad Adolfo Ibáñez</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Study Abroad Semester</h6>
+            <p class="card-text">
+              In 2019 (when I studied there), Universidad Adolfo Ibáñez was
+              ranked the 13th best university in Chile
+              <a href="https://web.archive.org/web/20191217075753/https://mba.americaeconomia.com/articulos/notas/conozca-los-resultados-del-ranking-de-las-mejores-universidades-de-chile-2019"
+                 target="_blank" rel="noopener noreferrer">
+                 according to Consejo Superior de Investigaciones Científicas
+              </a>
+              (<em>Spanish National Research Council</em>) and
+              <a href="https://web.archive.org/web/20191217075753/https://mba.americaeconomia.com/articulos/notas/conozca-los-resultados-del-ranking-de-las-mejores-universidades-de-chile-2019"
+                 target="_blank" rel="noopener noreferrer">
+                 the 15th best by América Economía.
+              </a>
+              It was also ranked in the top 60 best universities in Latin America
+              <a href="https://web.archive.org/web/20191219042429/https://www.timeshighereducation.com/world-university-rankings/adolfo-ibanez-university"
+                 target="_blank" rel="noopener noreferrer">
+                 according to Times Higher Education.
+              </a>
+            </p>
+
+            <p>At Universidad Adolfo Ibáñez, I took the following classes:</p>
+            <ul>
+              <li>Databases</li>
+              <li>Networking</li>
+              <li>Professional Programming</li>
+            </ul>
+            <!-- TODO #28 -- add transcripts once they become available -->
+            <!-- <h5 class="card-text">
+              <a class="nav-link active" href="ADD-URL-HERE" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-pdf"></i> download transcript
+              </a>
+            </h5> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Ohio_University_Logo.svg"
+               class="card-img-top" alt="Ohio University logo">
+          <div class="card-body">
+            <h5 class="card-title">Ohio University Lancaster</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Dual-enrollment during high school</h6>
+            <p class="card-text">
+              During my senior year of high school, I attended the Lancaster
+              branch of Ohio University part-time, where I took
+              general-education courses, including the following:
+            </p>
+            <ul>
+              <li>Public Speaking</li>
+              <li>Introduction to Psychology</li>
+              <li>Introduction to Sociology</li>
+            </ul>
+            <!-- TODO #28 -- add transcripts once they become available -->
+            <!-- <h5 class="card-text">
+              <a class="nav-link active" href="ADD-URL-HERE" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-pdf"></i> download transcript
+              </a>
+            </h5> -->
+          </div>
+        </div>
+
+      </div>
+      
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
