@@ -19,13 +19,14 @@
   },
   "uai": {
     "subtitle": "Semestre en el extranjero",
-    "part1": "TODO",
-    "part2": "",
+    "part1": "En 2019 (cuando estudiaba allí), la Universidad Adolfo Ibáñez se calificó como la 13ª mejor universidad de Chile",
+    "part2": "según el Consejo Superior de Investigaciones Científicas",
     "part3": "",
-    "part4": "",
-    "part5": "",
-    "part6": "",
-    "part7": "",
+    "part4": "y",
+    "part5": "la 15ª mejor para América Economía.",
+    "part6": "Además, se clasificó entre las mejores 60 universidades en América Latina",
+    "part7": "según Times Higher Education.",
+    "part8": "En la Universidad Adolfo Ibáñez, asistí a las clases siguientes:",
     "classes": {
         "databases": "Bases de Datos",
         "networking": "Redes de Computadoras",
@@ -34,7 +35,7 @@
   },
   "oul": {
     "subtitle": "Matrícula dual/temprana",
-    "part1": "TODO",
+    "part1": "Durante mi último año de secundaria (también conocida como preparatoria, instituto preuniversitario, bachillerato y enseñanza media — el 12º año de educación), asistí a Ohio University Lancaster de media jornada, donde tomé clases de educación general que incluyen las siguientes:",
     "classes": {
         "speaking": "Oratoria",
         "psychology": "Introducción a la Psicología",
