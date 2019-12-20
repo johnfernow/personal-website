@@ -1,0 +1,44 @@
+{
+  "denison": {
+    "subtitle": "Pregrado",
+    "part1": "Me gradúo en mayo de 2020 con un título de grado en informática.",
+    "part2": "Según la clasificación 2020 de universidades por U.S. News & World Report,",
+    "part3": "Denison califica como el 45ª \"mejor enseñanza de pregrado\" en los Estados Unidos. Se puede ver una compilación de análisis de la universidad",
+    "part4": "aquí",
+    "part5": "En Denison, asistí a las clases siguientes:",
+    "classes": {
+        "data-structures": "Estructuras de Datos",
+        "data-systems": "Sistemas de Datos",
+        "computer-systems": "Sistemas de Computadoras",
+        "algorithms": "El Diseño y Análisis de Algoritmos",
+        "game-design": "Diseño de Juegos",
+        "mathematical-foundations": "Fundamentos Matemáticos de la Informática",
+        "intermediate-cs": "Informática Intermedia",
+        "intro-cs": "Introducción a la Informática: Datos Científicos"
+    }
+  },
+  "uai": {
+    "subtitle": "Semestre en el extranjero",
+    "part1": "TODO",
+    "part2": "",
+    "part3": "",
+    "part4": "",
+    "part5": "",
+    "part6": "",
+    "part7": "",
+    "classes": {
+        "databases": "Bases de Datos",
+        "networking": "Redes de Computadoras",
+        "professional": "Programación Profesional"
+    }
+  },
+  "oul": {
+    "subtitle": "Matrícula dual/temprana",
+    "part1": "TODO",
+    "classes": {
+        "speaking": "Oratoria",
+        "psychology": "Introducción a la Psicología",
+        "sociology": "Introducción a la Sociología"
+    }
+  }
+}
