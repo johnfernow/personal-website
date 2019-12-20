@@ -12,21 +12,10 @@
     {% include header.html %}
     <main>
 
-    <h1>Test localization...</h1>
-    <p data-localize="test.nested">puts 2 + 2</p>
-    <p data-localize="basic">It failed :(</p>
-    <p data-localize="message">Optional callback never happened.</p>
-    <script type="text/javascript" charset="utf-8">
-    $(function(){
-      var opts = { pathPrefix: "{{site.baseurl}}/localizations/lang" };
-      opts.callback = function(data, defaultCallback) {
-        data.message = "Optional call back works."
-        $("[data-localize]").css({color: "#FF8833"})
-        defaultCallback(data);
-      }
-      $("[data-localize]").localize("test", opts)
-    })
-    </script>
+      <script type="text/javascript" charset="utf-8">
+        let page = "index";
+        {% include load_localization.js %}
+      </script>
 
       <h1 id="page-title">John Fernow</h1>
 
@@ -38,15 +27,28 @@
           </div>
 
           <div class="col-md">
-            <h4>Hi there! I'm John Fernow, a senior year Computer Science undergraduate
-              student at Denison University with an interest in software development.
-              <br><br>
-              Aside from coding, I am passionate about learning how to reduce climate
-              change and most effectively help those in extreme poverty.
-              <br><br>
-              Looking for a developer to hire? Check out my
-              <a href="{{site.baseurl}}/skills">skills</a> and
-              <a href="{{site.baseurl}}/projects">projects</a> pages!
+            <h4>
+              <div data-localize="intro.part1">
+                Hi there! I'm John Fernow, a senior year Computer Science undergraduate
+                student at Denison University with an interest in software development.
+              </div>
+              <br>
+              <div data-localize="intro.part2">
+                Aside from coding, I am passionate about learning how to reduce climate
+                change and most effectively help those in extreme poverty.
+              </div>
+              <br>
+              <span data-localize="intro.part3">
+                Looking for a developer to hire? Check out my
+              </span>
+              <a data-localize="intro.pages.skills" href="{{site.baseurl}}/skills">
+                skills
+              </a>
+              <span data-localize="intro.misc.and"> and </span>
+              <a data-localize="intro.pages.projects" href="{{site.baseurl}}/projects">
+                projects
+              </a>
+              <span data-localize="intro.misc.pages"> pages!</span>
             </h4>
           </div>
 
