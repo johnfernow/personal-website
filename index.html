@@ -12,6 +12,11 @@
     {% include header.html %}
     <main>
 
+      <script type="text/javascript" charset="utf-8">
+        {% include load_localization.js %}
+        loadLocalization("index");
+      </script>
+
       <h1 id="page-title">John Fernow</h1>
 
       <div class="container"> <!-- used to place image to left, text to right, if space -->
@@ -22,15 +27,28 @@
           </div>
 
           <div class="col-md">
-            <h4>Hi there! I'm John Fernow, a senior year Computer Science undergraduate
-              student at Denison University with an interest in software development.
-              <br><br>
-              Aside from coding, I am passionate about learning how to reduce climate
-              change and most effectively help those in extreme poverty.
-              <br><br>
-              Looking for a developer to hire? Check out my
-              <a href="{{site.baseurl}}/skills">skills</a> and
-              <a href="{{site.baseurl}}/projects">projects</a> pages!
+            <h4>
+              <div data-localize="intro.part1">
+                Hi there! I'm John Fernow, a senior year Computer Science undergraduate
+                student at Denison University with an interest in software development.
+              </div>
+              <br>
+              <div data-localize="intro.part2">
+                Aside from coding, I am passionate about learning how to reduce climate
+                change and most effectively help those in extreme poverty.
+              </div>
+              <br>
+              <span data-localize="intro.part3">
+                Looking for a developer to hire? Check out my
+              </span>
+              <a data-localize="intro.pages.skills" href="{{site.baseurl}}/skills">
+                skills
+              </a>
+              <span data-localize="intro.misc.and"> and </span>
+              <a data-localize="intro.pages.projects" href="{{site.baseurl}}/projects">
+                projects
+              </a>
+              <span data-localize="intro.misc.pages"> pages!</span>
             </h4>
           </div>
 

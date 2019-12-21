@@ -11,13 +11,19 @@ permalink: /volunteer/
   <body>
     {% include header.html %}
     <main>
-      <h1 id="page-title">Volunteer Work</h1>
+
+      <script type="text/javascript" charset="utf-8">
+        {% include load_localization.js %}
+        loadLocalization("volunteer");
+      </script>
+
+      <h1 data-localize="title" data-localize="title" id="page-title">Volunteer Work</h1>
       <div class="card-deck" id="volunteer-deck">
 
         <div class="card">
           <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/American_Red_Cross_logo.svg"
                alt="American Red Cross logo" class="card-img-top">
-          <p>
+          <p data-localize="red-cross.description">
             I have hosted a blood drive for the American Red Cross in Lancaster,
             Ohio and typically donate blood every two months, depending on my
             hemoglobin levels. So far I've donated over 2 gallons (3.79 liters)!
@@ -27,7 +33,7 @@ permalink: /volunteer/
         <div class="card">
           <img src="https://upload.wikimedia.org/wikipedia/en/e/ee/Logo_for_Citizens_Climate_Lobby_2015.png"
                alt="Citizens Climate Lobby logo" id="ccl-logo" class="card-img-top">
-          <p>
+          <p data-localize="ccl.description">
             Citizens Climate Lobby is a nonprofit, nonpartisan, international,
             grassroots organization that strives to introduce environmental
             legislation widely-backed by climate scientists and economists alike.
