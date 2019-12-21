@@ -1,0 +1,20 @@
+{
+  "mcfa": {
+    "title": "Controles multimedia para todos",
+    "description": "Una aplicación multilingüe que creé que agrega controles de volumen y música a los teclados que no tienen botones dedicados para ellos."
+  },
+  "measles": {
+    "description": "Un juego del web desarrollado por yo y tres otros para un proyecto de clase. De verdad, es un poco tosco debido al poco tiempo que tuvimos para desarrollarlo, pero espero que le haga reír y que lo encuentre divertido.",
+    "link-text": "¡Juéguelo aquí! (por desgracia, sólo está disponible en inglés en este momento)"
+  },
+  "website": {
+    "title": "Mi sitio web personal",
+    "description": "Un sitio web que es adaptable (funciona bien para los móviles y las computadoras de escritorio), multilingüe y rápido (páginas optimizadas, como el uso de las imágenes vectoriales cuando es posible y óptimo, carga archivos \"minificados\" de CDNs rápidos) y utiliza Jekyll para mejorar el formato del código para facilitar la edición."
+  },
+  "mydenison": {
+    "description": "El sitio web interno para los estudiantes y empleados de Denison University que muestra información como notificaciones, eventos en el campus, trabajos disponibles para los estudiantes, el balance de cuenta de un estudiante, las notas finales y mucho más. Trabajé para convertirlo en un sitio web adaptable (mejorar la interfaz móvil) y creé aplicaciones web para él."
+  },
+  "lila": {
+    "description": "Una aplicación multiplataforma usada para tomar exámenes en las computadoras personales de los estudiantes que tiene varias medidas para prevenir que engañan: forzar el modo de pantalla completa, prevenir la minimización de la aplicación y la tecla de acceso rápido \"alt-tab\" y prohibir ver cualquier otra aplicación hasta que se termina el examen, entre varias otras medidas. Arreglé un problema con el Python Shell que los estudiantes usan para contestar preguntas, implementé la detección de plagio y desarrollé el modo corrector."
+  }
+}
