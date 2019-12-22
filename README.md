@@ -1,6 +1,6 @@
 # John Fernow's Personal Website
 
-https://johnfernow.com (URL coming soon)
+https://johnfernow.com 
 
 Technologies: Jekyll, Bootstrap, jQuery, Popper.js, jQuery Localize, Font Awesome,
 Devicon, DevOpicons, HTML and CSS.
