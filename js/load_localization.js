@@ -1,3 +1,5 @@
+---
+---
 function loadLocalization(page) {
   // autodetect language if user has not manually set it
   if (localStorage.getItem("userLanguage") === null) {
