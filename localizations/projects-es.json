@@ -16,5 +16,9 @@
   },
   "lila": {
     "description": "Una aplicación multiplataforma usada para tomar exámenes en las computadoras personales de los estudiantes que tiene varias medidas para prevenir que engañan: forzar el modo de pantalla completa, prevenir la minimización de la aplicación y la tecla de acceso rápido \"alt-tab\" y prohibir ver cualquier otra aplicación hasta que se termina el examen, entre varias otras medidas. Arreglé un problema con el Python Shell que los estudiantes usan para contestar preguntas, implementé la detección de plagio y desarrollé el modo corrector."
+  },
+  "sdcc": {
+    "title": "Stable Disk Connection Checker",
+    "description": "Una aplicación de Java que verifica si la conexión a un disco de almacanamiento (como HDD, SSD, USB, etc.) es muy estable o no. Aunque hay muchos programas que verifican la salud de un disco, no tienen en cuenta las malas conexiones. Por ejemplo, se puede tener un HDD en condición perfecta, pero disconecta a menudo por tener un cable o puerto defectuoso o sólo por necesitar ser reconectado. (Sólo está disponible en inglés en este momento.)"
   }
 }

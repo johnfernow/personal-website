@@ -1,7 +1,7 @@
 {
   "denison": {
     "subtitle": "Pregrado",
-    "part1": "Me gradúo en mayo de 2020 con un título de grado en informática.",
+    "part1": "Me gradué en mayo de 2020 con una licenciatura en informática.",
     "part2": "Según la clasificación 2020 de universidades por U.S. News & World Report,",
     "part3": "Denison califica como el 45ª \"mejor enseñanza de pregrado\" en los Estados Unidos. Se puede ver una compilación de análisis de la universidad",
     "part4": "aquí",
@@ -11,6 +11,7 @@
         "data-systems": "Sistemas de Datos",
         "computer-systems": "Sistemas de Computadoras",
         "algorithms": "El Diseño y Análisis de Algoritmos",
+        "fog": "Computación en la niebla, en la nube y el Internet de las cosas",
         "game-design": "Diseño de Juegos",
         "mathematical-foundations": "Fundamentos Matemáticos de la Informática",
         "intermediate-cs": "Informática Intermedia",

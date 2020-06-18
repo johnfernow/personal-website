@@ -1,10 +1,13 @@
 {
   "col1": "Experiencia Profesional",
   "col2": "Experiencia Académica",
+  "col3": "Autodidacto",
   "year": "año",
   "years": "años",
   "semester": "semestre",
   "semesters": "semestres",
+  "project": "proyecto",
+  "projects": "proyectos",
   "basic": "uso básico",
   "occasional": "uso ocasional",
   "minor": "uso menor",
