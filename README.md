@@ -1,6 +1,6 @@
 # John Fernow's Personal Website
 
-https://johnfernow.com 
+https://johnfernow.com
 
 Technologies: Jekyll, Bootstrap, jQuery, Popper.js, jQuery Localize, Font Awesome,
 Devicon, DevOpicons, HTML and CSS.
@@ -43,7 +43,7 @@ organization page or a custom URL). This can be resolved by specifying
 `{{site.url}}/index.html`, but shouldn't be necessary with a custom URL.
 
 ## Contributing
-All external links that open in new tabs MUST include rel="noopener noreferrer"
+All external links that open in new tabs MUST include rel="noopener"
 for [security
 reasons](https://developers.google.com/web/tools/lighthouse/audits/noopener).
 
