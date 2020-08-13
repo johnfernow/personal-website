@@ -1,15 +1,19 @@
 {
   "intro": {
-    "part1": "¡Hola! Soy John Fernow y acaba de graduarme de Denison University con una licenciatura de informática. Me interesa el desarrollo de software.",
-    "part2": "Aparte de programar, me apasiona aprender cómo disminuir el cambio climático y cómo ayudar a aquellos que viven en pobreza extrema de la manera más efectiva.",
-    "part3": "¿Usted busca un desarrollador? ¡Verifique las páginas de mis",
-    "pages": {
-        "skills": "habilidades",
-        "projects": "proyectos!"
+    "part1": {
+      "1": "¡Hola! Soy John Fernow. Tengo una licenciatura de informática de Denison University y trabajo como un desarrollador de web para",
+      "2": "LHT Learning.",
+      "3": "Desarrollo",
+      "4": "cursos virtuales",
+      "5": "y el sitio web. Creamos cursos de capacitaciones para una variedad de empresas",
+      "6": "de diferentes maneras.",
+      "7": "Creamos cursos como aplicaciones de web, juegos competitivos,",
+      "8": "cursos de realidad virtual",
+      "9": "y otros formatos digitales. Hemos creado varios programas corporativos de entrenamiento y",
+      "10": "programas de cumplimiento normativo en salud,",
+      "11": "pero también hemos trabajado con muchas empresas de distintos sectores. ¡Visita",
+      "12": "el sitio web!"
     },
-    "misc": {
-      "and": " y ",
-      "pages": ""
-    }
+    "part2": "Aparte de programar, me apasiona aprender cómo disminuir el cambio climático y cómo ayudar a aquellos que viven en pobreza extrema de la manera más efectiva."
   }
 }
