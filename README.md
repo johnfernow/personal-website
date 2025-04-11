@@ -7,7 +7,8 @@ Devicon, DevOpicons, HTML and CSS.
 
 ## Building
 ### Requirements
-* [Jekyll](https://jekyllrb.com/docs/installation/)
+* [Jekyll](https://jekyllrb.com/docs/installation/)  
+  * use latest version supported by GitHub Pages](https://pages.github.com/versions/)
 
 ### Making and testing changes
 * `cd Personal-Website`
