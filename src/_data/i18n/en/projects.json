@@ -1,0 +1,27 @@
+{
+  "mcfa": {
+    "title": "Media Controls for All",
+    "description": "A multilingual program I created that adds volume and music controls to keyboards that don't have dedicated buttons for them."
+  },
+  "measles": {
+    "title": "Measles Mania",
+    "description": "A web game developed by me and 3 others for a class project. It's admittedly a little rough on the edges due to time restraints, but hopefully you get a couple laughs out of it and find it fun.",
+    "link": "Play it here."
+  },
+  "website": {
+    "title": "My personal website",
+    "description": "A responsive (mobile and desktop friendly), multilingual website with optimized page sizes (such as the use of vector images when possible and optimal, loading minified JavaScript and CSS from fast CDNs) that utilizes Eleventy for static site generation."
+  },
+  "mydenison": {
+    "title": "MyDenison",
+    "description": "The internal website for students and staff members at Denison University, that displays various information, such as announcements, campus events, student jobs, account balances, grades and so much more. I worked on making the website responsive, converting it to a new version of a CMS, and created and modified web apps for it."
+  },
+  "lila": {
+    "title": "Lila",
+    "description": "A multiplatform program used to take programming exams on students' own laptops, but has numerous measures to prevent cheating: it forces fullscreen mode and prevents minimization, alt-tabbing, or viewing any other application until you click to finish the exam, among many other measures. I fixed errors related to the internal Python shell students use to answer questions, implemented plagiarism verification, and worked on the exam correction mode."
+  },
+  "sdcc": {
+    "title": "Stable Disk Connection Checker",
+    "description": "A Java application that verifies if the connection to an internal or external drive (HDD, SSD, USB, etc.) is very stable or not. While there are numerous disk health check programs available for free that are quite good at detecting the health of storage devices, they unfortunately do not account for bad connections. For example: you can have a HDD that is in perfect condition, but it randomly disconnects periodically due to a bad SATA cable, USB cable, bad port, or just because the cable needs reseated."
+  }
+}

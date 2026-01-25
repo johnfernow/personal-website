@@ -1,0 +1,49 @@
+{
+  "denison": {
+    "name": "Denison University",
+    "subtitle": "Undergrad",
+    "part1": "I graduated May 16, 2020 with a Bachelor's degree in Computer Science.",
+    "part2": "According to the 2020 U.S. News & World Report college and university rankings",
+    "part3": "Denison ranked 45th in \"Best Undergraduate Teaching\" in the US. A compilation of reviews can be viewed",
+    "here": "here",
+    "part5": "At Denison, I took the following classes:",
+    "classes": {
+      "dataStructures": "Data Structures",
+      "dataSystems": "Data Systems",
+      "computerSystems": "Computer Systems",
+      "algorithms": "Algorithm Design and Analysis",
+      "gameDesign": "Game Design",
+      "fog": "Fog, Cloud Systems and the Internet of Things",
+      "mathFoundations": "Mathematical Foundations of Computer Science",
+      "intermediateCs": "Intermediate Computer Science",
+      "introCs": "Introduction to Computer Science: Scientific Data"
+    }
+  },
+  "uai": {
+    "name": "Universidad Adolfo Ibáñez",
+    "subtitle": "Study Abroad Semester",
+    "part1": "In 2019 (when I studied there), Universidad Adolfo Ibáñez was ranked the 13th best university in Chile",
+    "part2": "according to Consejo Superior de Investigaciones Científicas",
+    "part3": "(Spanish National Research Council)",
+    "and": "and",
+    "part5": "the 15th best by América Economía.",
+    "part6": "It was also ranked in the top 60 best universities in Latin America",
+    "part7": "according to Times Higher Education.",
+    "part8": "At Universidad Adolfo Ibáñez, I took the following classes:",
+    "classes": {
+      "databases": "Databases",
+      "networking": "Networking",
+      "professional": "Professional Programming"
+    }
+  },
+  "oul": {
+    "name": "Ohio University Lancaster",
+    "subtitle": "Dual-enrollment during high school",
+    "part1": "During my senior year of high school, I attended the Lancaster branch of Ohio University part-time, where I took general-education courses, including the following:",
+    "classes": {
+      "speaking": "Public Speaking",
+      "psychology": "Introduction to Psychology",
+      "sociology": "Introduction to Sociology"
+    }
+  }
+}
