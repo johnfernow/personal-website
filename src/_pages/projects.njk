@@ -1,6 +1,10 @@
 ---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/projects/"
 layout: base.njk
-title: Proyectos
 ---
 <h1>{{ i18n[locale].nav.projects }}</h1>
 
