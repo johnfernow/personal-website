@@ -1,11 +1,4 @@
-import { EleventyI18nPlugin } from "@11ty/eleventy";
-
 export default function(eleventyConfig) {
-  // i18n plugin
-  eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: "en",
-    errorMode: "allow-fallback"
-  });
 
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("src/images");

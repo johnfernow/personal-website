@@ -30,8 +30,8 @@
         <li><a href="/{{ locale }}/education/">{{ i18n[locale].nav.education }}</a></li>
         <li><a href="/{{ locale }}/volunteer/">{{ i18n[locale].nav.volunteer }}</a></li>
         <li>
-          <a href="{{ page.url | replace('/' + locale + '/', '/' + i18n[locale].otherLang + '/') }}">
-            {{ i18n[locale].otherLangName }}
+          <a href="{{ page.url | replace('/' + locale + '/', '/' + i18n[locale].nav.otherLang + '/') }}">
+            {{ i18n[locale].nav.otherLangName }}
           </a>
         </li>
       </ul>
