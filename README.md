@@ -5,8 +5,26 @@ https://johnfernow.com
 Technologies: Eleventy (11ty), MVP.css, Font Awesome, Devicon, DevOpicons, HTML, CSS.
 
 ## Building
+
 ### Requirements
-* TODO: add instructions
+* Node.js (v18 or later recommended)
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Development server
+```bash
+npm start
+```
+This starts a local server at http://localhost:8080 with live reload.
+
+### Production build
+```bash
+npm run build
+```
+Output goes to `_site/`.
 
 ## Contributing
 All external links that open in new tabs MUST include rel="noopener"
