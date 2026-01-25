@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | {{ site.title }}</title>
+
+  <!-- MVP.css for classless styling -->
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+
+  <!-- Custom theme overrides -->
+  <link rel="stylesheet" href="/css/theme.css">
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/52dac72a4d.js" crossorigin="anonymous"></script>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <meta name="theme-color" content="#121212">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/{{ locale }}/">{{ site.title }}</a>
+      <ul>
+        <li><a href="/{{ locale }}/skills/">{{ i18n[locale].nav.skills }}</a></li>
+        <li><a href="/{{ locale }}/projects/">{{ i18n[locale].nav.projects }}</a></li>
+        <li><a href="/{{ locale }}/education/">{{ i18n[locale].nav.education }}</a></li>
+        <li><a href="/{{ locale }}/volunteer/">{{ i18n[locale].nav.volunteer }}</a></li>
+        <li>
+          <a href="{{ page.url | replace('/' + locale + '/', '/' + i18n[locale].otherLang + '/') }}">
+            {{ i18n[locale].otherLangName }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+    {% block header %}{% endblock %}
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/johnfernow" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/john-fernow" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:johnfernow@gmail.com" aria-label="Email">
+            <i class="far fa-envelope fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* Dark theme overrides for MVP.css */
+:root {
+  --color-bg: #121212;
+  --color-bg-secondary: #1e1e1e;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #a0a0a0;
+  --color-link: #6ea8fe;
+  --color-accent: #6ea8fe;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --border-radius: 8px;
+  --width-card: 350px;
+  --width-card-wide: 600px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+header {
+  background-color: var(--color-bg-secondary);
+}
+
+header nav a {
+  color: var(--color-text);
+}
+
+header nav a:hover {
+  color: var(--color-link);
+}
+
+section, aside, article {
+  background-color: var(--color-bg-secondary);
+}
+
+/* Card-like sections */
+article {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: var(--border-radius);
+}
+
+/* Progress bars for skills */
+.progress-container {
+  background-color: #333;
+  border-radius: 4px;
+  height: 1.5rem;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: var(--color-accent);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.875rem;
+  transition: width 0.3s ease;
+}
+
+/* Skills grid layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Project cards grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Homepage styling */
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.portrait {
+  max-width: 100%;
+  border-radius: var(--border-radius);
+}
+
+/* Page title styling */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--color-bg-secondary);
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer nav ul {
+  justify-content: center;
+}
+
+footer a {
+  color: var(--color-text);
+}
+
+footer a:hover {
+  color: var(--color-link);
+}
+
+/* Card images */
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+}
+
+/* Skill icons */
+.skill-icon {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Other skills list */
+.other-skills ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.other-skills li {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+title: Trabajo Voluntario
+---
+<h1>{{ i18n[locale].volunteer.title }}</h1>
+
+<div class="projects-grid">
+  <article>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/American_Red_Cross_logo.svg" alt="American Red Cross logo">
+    <h3>{{ i18n[locale].volunteer.redCross.name }}</h3>
+    <p>{{ i18n[locale].volunteer.redCross.description }}</p>
+  </article>
+
+  <article>
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/ee/Logo_for_Citizens_Climate_Lobby_2015.png" alt="Citizens Climate Lobby logo" style="background: white; padding: 1rem;">
+    <h3>{{ i18n[locale].volunteer.ccl.name }}</h3>
+    <p>{{ i18n[locale].volunteer.ccl.description }}</p>
+  </article>
+</div>
