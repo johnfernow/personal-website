@@ -6,10 +6,12 @@ pagination:
 permalink: "/{{ locale }}/education/"
 layout: base.njk
 ---
-<h1>{{ i18n[locale].nav.education }}</h1>
+<header>
+  <h1>{{ i18n[locale].nav.education }}</h1>
+</header>
 
-<div class="projects-grid">
-  <article>
+<section>
+  <aside>
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Denison-logo.svg" alt="Denison University logo">
     <h3>{{ i18n[locale].education.denison.name }}</h3>
     <p><em>{{ i18n[locale].education.denison.subtitle }}</em></p>
@@ -31,9 +33,9 @@ layout: base.njk
       <li>{{ i18n[locale].education.denison.classes.intermediateCs }}</li>
       <li>{{ i18n[locale].education.denison.classes.introCs }}</li>
     </ul>
-  </article>
+  </aside>
 
-  <article>
+  <aside>
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Logo_Universidad_Adolfo_Ib%C3%A1%C3%B1ez.JPG" alt="Universidad Adolfo Ibáñez logo">
     <h3>{{ i18n[locale].education.uai.name }}</h3>
     <p><em>{{ i18n[locale].education.uai.subtitle }}</em></p>
@@ -52,10 +54,10 @@ layout: base.njk
       <li>{{ i18n[locale].education.uai.classes.networking }}</li>
       <li>{{ i18n[locale].education.uai.classes.professional }}</li>
     </ul>
-  </article>
+  </aside>
 
-  <article>
-    <img src="/images/Ohio_University_Logo.svg" alt="Ohio University logo" style="background: white; padding: 1rem;">
+  <aside>
+    <img src="/images/Ohio_University_Logo.svg" alt="Ohio University logo">
     <h3>{{ i18n[locale].education.oul.name }}</h3>
     <p><em>{{ i18n[locale].education.oul.subtitle }}</em></p>
     <p>{{ i18n[locale].education.oul.part1 }}</p>
@@ -64,5 +66,5 @@ layout: base.njk
       <li>{{ i18n[locale].education.oul.classes.psychology }}</li>
       <li>{{ i18n[locale].education.oul.classes.sociology }}</li>
     </ul>
-  </article>
-</div>
+  </aside>
+</section>

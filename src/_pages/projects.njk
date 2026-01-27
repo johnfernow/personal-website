@@ -6,10 +6,12 @@ pagination:
 permalink: "/{{ locale }}/projects/"
 layout: base.njk
 ---
-<h1>{{ i18n[locale].nav.projects }}</h1>
+<header>
+  <h1>{{ i18n[locale].nav.projects }}</h1>
+</header>
 
-<div class="projects-grid">
-  <article>
+<section>
+  <aside>
     <img src="https://raw.githubusercontent.com/johnfernow/media-controls-for-all/master/images/english/logo_en.png" alt="Media Controls for All logo">
     <h3>{{ i18n[locale].projects.mcfa.title }}</h3>
     <p>{{ i18n[locale].projects.mcfa.description }}</p>
@@ -18,9 +20,9 @@ layout: base.njk
         <i class="fab fa-github"></i> GitHub
       </a>
     </p>
-  </article>
+  </aside>
 
-  <article>
+  <aside>
     <img src="/images/measles-mania-title.jpg" alt="Measles Mania logo">
     <h3>{{ i18n[locale].projects.measles.title }}</h3>
     <p>{{ i18n[locale].projects.measles.description }}</p>
@@ -29,9 +31,9 @@ layout: base.njk
         {{ i18n[locale].projects.measles.link }}
       </a>
     </p>
-  </article>
+  </aside>
 
-  <article>
+  <aside>
     <h3>{{ i18n[locale].projects.website.title }}</h3>
     <p>{{ i18n[locale].projects.website.description }}</p>
     <p>
@@ -39,21 +41,21 @@ layout: base.njk
         <i class="fab fa-github"></i> GitHub
       </a>
     </p>
-  </article>
+  </aside>
 
-  <article>
+  <aside>
     <img src="/images/mydenison-logo.jpg" alt="MyDenison logo">
     <h3>{{ i18n[locale].projects.mydenison.title }}</h3>
     <p>{{ i18n[locale].projects.mydenison.description }}</p>
-  </article>
+  </aside>
 
-  <article>
+  <aside>
     <img src="/images/UAI-logo.jpg" alt="Universidad Adolfo Ibáñez logo">
     <h3>{{ i18n[locale].projects.lila.title }}</h3>
     <p>{{ i18n[locale].projects.lila.description }}</p>
-  </article>
+  </aside>
 
-  <article>
+  <aside>
     <h3>{{ i18n[locale].projects.sdcc.title }}</h3>
     <p>{{ i18n[locale].projects.sdcc.description }}</p>
     <p>
@@ -61,5 +63,5 @@ layout: base.njk
         <i class="fab fa-github"></i> GitHub
       </a>
     </p>
-  </article>
-</div>
+  </aside>
+</section>
