@@ -25,6 +25,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <meta name="theme-color" content="#121212">
+
+  {% if extraCss %}
+  <link rel="stylesheet" href="{{ extraCss }}">
+  {% endif %}
 </head>
 <body>
   <header>
@@ -42,7 +46,6 @@
         </li>
       </ul>
     </nav>
-    {% block header %}{% endblock %}
   </header>
 
   <main>

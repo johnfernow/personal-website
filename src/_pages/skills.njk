@@ -5,6 +5,7 @@ pagination:
   alias: locale
 permalink: "/{{ locale }}/skills/"
 layout: base.njk
+extraCss: /css/skills.css
 ---
 <header>
   <h1>{{ i18n[locale].nav.skills }}</h1>
@@ -13,76 +14,70 @@ layout: base.njk
 <section>
   <aside>
     <h3>{{ i18n[locale].skills.professional }}</h3>
-    <dl>
-      <dt><i class="devicon-javascript-plain colored"></i> JavaScript</dt>
-      <dd>6 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-css3-plain colored"></i> CSS</dt>
-      <dd>6 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-html5-plain-wordmark colored"></i> HTML5</dt>
-      <dd>6 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-git-plain colored"></i> git</dt>
-      <dd>6 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-php-plain colored"></i> PHP</dt>
-      <dd>2 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-jquery-plain colored"></i> jQuery</dt>
-      <dd>2 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-bootstrap-plain colored"></i> Bootstrap 4</dt>
-      <dd>2 {{ i18n[locale].skills.year }}</dd>
-      <dt><i class="devicon-sass-original colored"></i> SASS</dt>
-      <dd>2 {{ i18n[locale].skills.year }}</dd>
-      <dt><i class="devicon-drupal-plain colored"></i> Drupal</dt>
-      <dd>2 {{ i18n[locale].skills.years }}</dd>
-      <dt><i class="devicon-mysql-plain colored"></i> MySQL</dt>
-      <dd>{{ i18n[locale].skills.occasional }}</dd>
-      <dt>JSON</dt>
-      <dd>{{ i18n[locale].skills.occasional }}</dd>
-      <dt><i class="devicon-vuejs-plain colored"></i> VueJS</dt>
-      <dd>{{ i18n[locale].skills.minor }}</dd>
-    </dl>
+    <p><i class="devicon-javascript-plain colored"></i> JavaScript</p>
+    <p><jf-progress style="width:100%;">6 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-css3-plain colored"></i> CSS</p>
+    <p><jf-progress style="width:100%;">6 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-html5-plain-wordmark colored"></i> HTML5</p>
+    <p><jf-progress style="width:100%;">6 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-git-plain colored"></i> git</p>
+    <p><jf-progress style="width:100%;">6 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-php-plain colored"></i> PHP</p>
+    <p><jf-progress style="width:33%;">2 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-jquery-plain colored"></i> jQuery</p>
+    <p><jf-progress style="width:33%;">2 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-bootstrap-plain colored"></i> Bootstrap 4</p>
+    <p><jf-progress style="width:33%;">2 {{ i18n[locale].skills.year }}</jf-progress></p>
+    <p><i class="devicon-sass-original colored"></i> SASS</p>
+    <p><jf-progress style="width:33%;">2 {{ i18n[locale].skills.year }}</jf-progress></p>
+    <p><i class="devicon-drupal-plain colored"></i> Drupal</p>
+    <p><jf-progress style="width:33%;">2 {{ i18n[locale].skills.years }}</jf-progress></p>
+    <p><i class="devicon-mysql-plain colored"></i> MySQL</p>
+    <p><jf-progress style="width:15%;">{{ i18n[locale].skills.occasional }}</jf-progress></p>
+    <p>JSON</p>
+    <p><jf-progress style="width:15%;">{{ i18n[locale].skills.occasional }}</jf-progress></p>
+    <p><i class="devicon-vuejs-plain colored"></i> VueJS</p>
+    <p><jf-progress style="width:10%;">{{ i18n[locale].skills.minor }}</jf-progress></p>
   </aside>
 
   <aside>
     <h3>{{ i18n[locale].skills.academic }}</h3>
-    <dl>
-      <dt><i class="devicon-python-plain colored"></i> Python 3</dt>
-      <dd>3 {{ i18n[locale].skills.semesters }}</dd>
-      <dt><i class="devicon-cplusplus-plain colored"></i> C++</dt>
-      <dd>3 {{ i18n[locale].skills.semesters }}</dd>
-      <dt><i class="devicon-csharp-plain colored"></i> C#</dt>
-      <dd>1 {{ i18n[locale].skills.semester }}</dd>
-      <dt><i class="devicon-typescript-plain colored"></i> TypeScript</dt>
-      <dd>1 {{ i18n[locale].skills.semester }}</dd>
-      <dt><i class="devicon-electron-original colored"></i> Electron</dt>
-      <dd>1 {{ i18n[locale].skills.semester }}</dd>
-      <dt><i class="devicon-unity-plain colored"></i> Unity</dt>
-      <dd>1 {{ i18n[locale].skills.semester }}</dd>
-      <dt><i class="devicon-postgresql-plain colored"></i> PostgreSQL</dt>
-      <dd>{{ i18n[locale].skills.occasional }}</dd>
-      <dt><i class="devicon-angularjs-plain colored"></i> Angular</dt>
-      <dd>{{ i18n[locale].skills.basic }}</dd>
-      <dt><i class="devicon-nodejs-plain colored"></i> NodeJS</dt>
-      <dd>{{ i18n[locale].skills.basic }}</dd>
-      <dt><i class="devicon-bash-plain colored"></i> Bash</dt>
-      <dd>{{ i18n[locale].skills.basic }}</dd>
-      <dt>OAuth2 + Web APIs</dt>
-      <dd>{{ i18n[locale].skills.minor }}</dd>
-      <dt>Web Scraping</dt>
-      <dd>{{ i18n[locale].skills.minor }}</dd>
-      <dt>XML + XPath</dt>
-      <dd>{{ i18n[locale].skills.minor }}</dd>
-      <dt>x86 Assembly</dt>
-      <dd>{{ i18n[locale].skills.minor }}</dd>
-    </dl>
+    <p><i class="devicon-python-plain colored"></i> Python 3</p>
+    <p><jf-progress style="width:100%;">3 {{ i18n[locale].skills.semesters }}</jf-progress></p>
+    <p><i class="devicon-cplusplus-plain colored"></i> C++</p>
+    <p><jf-progress style="width:100%;">3 {{ i18n[locale].skills.semesters }}</jf-progress></p>
+    <p><i class="devicon-csharp-plain colored"></i> C#</p>
+    <p><jf-progress style="width:33%;">1 {{ i18n[locale].skills.semester }}</jf-progress></p>
+    <p><i class="devicon-typescript-plain colored"></i> TypeScript</p>
+    <p><jf-progress style="width:33%;">1 {{ i18n[locale].skills.semester }}</jf-progress></p>
+    <p><i class="devicon-electron-original colored"></i> Electron</p>
+    <p><jf-progress style="width:33%;">1 {{ i18n[locale].skills.semester }}</jf-progress></p>
+    <p><i class="devicon-unity-plain colored"></i> Unity</p>
+    <p><jf-progress style="width:33%;">1 {{ i18n[locale].skills.semester }}</jf-progress></p>
+    <p><i class="devicon-postgresql-plain colored"></i> PostgreSQL</p>
+    <p><jf-progress style="width:20%;">{{ i18n[locale].skills.occasional }}</jf-progress></p>
+    <p><i class="devicon-angularjs-plain colored"></i> Angular</p>
+    <p><jf-progress style="width:15%;">{{ i18n[locale].skills.basic }}</jf-progress></p>
+    <p><i class="devicon-nodejs-plain colored"></i> NodeJS</p>
+    <p><jf-progress style="width:15%;">{{ i18n[locale].skills.basic }}</jf-progress></p>
+    <p><i class="devicon-bash-plain colored"></i> Bash</p>
+    <p><jf-progress style="width:15%;">{{ i18n[locale].skills.basic }}</jf-progress></p>
+    <p>OAuth2 + Web APIs</p>
+    <p><jf-progress style="width:10%;">{{ i18n[locale].skills.minor }}</jf-progress></p>
+    <p>Web Scraping</p>
+    <p><jf-progress style="width:10%;">{{ i18n[locale].skills.minor }}</jf-progress></p>
+    <p>XML + XPath</p>
+    <p><jf-progress style="width:10%;">{{ i18n[locale].skills.minor }}</jf-progress></p>
+    <p>x86 Assembly</p>
+    <p><jf-progress style="width:10%;">{{ i18n[locale].skills.minor }}</jf-progress></p>
   </aside>
 
   <aside>
     <h3>{{ i18n[locale].skills.selfTaught }}</h3>
-    <dl>
-      <dt><i class="devicon-java-plain colored"></i> Java</dt>
-      <dd>1 {{ i18n[locale].skills.project }}</dd>
-      <dt>AutoHotkey</dt>
-      <dd>1 {{ i18n[locale].skills.project }}</dd>
-    </dl>
+    <p><i class="devicon-java-plain colored"></i> Java</p>
+    <p><jf-progress style="width:50%;">1 {{ i18n[locale].skills.project }}</jf-progress></p>
+    <p>AutoHotkey</p>
+    <p><jf-progress style="width:50%;">1 {{ i18n[locale].skills.project }}</jf-progress></p>
   </aside>
 </section>
 
