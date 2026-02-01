@@ -5,7 +5,10 @@ pagination:
   alias: locale
 permalink: "/{{ locale }}/skills/"
 layout: base.njk
-extraCss: /css/skills.css
+extraCss:
+  - https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css
+  - https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css
+  - /css/skills.css
 ---
 <header>
   <h1>{{ i18n[locale].nav.skills }}</h1>

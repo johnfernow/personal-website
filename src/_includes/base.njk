@@ -14,21 +14,15 @@
   <!-- Font Awesome for icons -->
   <script src="https://kit.fontawesome.com/52dac72a4d.js" crossorigin="anonymous"></script>
 
-  <!-- Devicon for programming language icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
-  <!-- DevOpicons for additional dev icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css">
-
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <meta name="theme-color" content="#121212">
 
-  {% if extraCss %}
-  <link rel="stylesheet" href="{{ extraCss }}">
-  {% endif %}
+  {% for css in extraCss %}
+  <link rel="stylesheet" href="{{ css }}">
+  {% endfor %}
 </head>
 <body>
   <header>
