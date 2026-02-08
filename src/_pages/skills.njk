@@ -7,8 +7,32 @@ permalink: "/{{ locale }}/skills/"
 layout: base.njk
 extraCss:
   - https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css
-  - https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css
   - /css/skills.css
+{# Latest devicon CSS file loads a large .ttf font. 
+    Interestingly, in version 2.7.0, the .woff is larger than the .ttf.
+    Taking the .ttf and converting to .woff2 with fontsquirrel or something, 
+    the file was smaller but not meaningfully. So not a trivial problem to solve.
+
+    If I were to solve/optimize it, do it upstream. There is no advantage in a fork:
+    at that point, just use SVGs! The whole advantage of using this is that I 
+    never need to update anything when logos (e.g. Unity) change. 
+    Sure, it's slow, but I always get latest logos with no updates ever on my part.
+    And it looks perfectly fine if it never loads at all, vs an old logo looks unmaintained.
+    The devicon font I'm loading above is from https://github.com/devicons/devicon 
+    
+    Some interesting but probably unnecessary info:
+    https://api.github.com/repos/vorillaz/devicons - https://github.com/vorillaz/devicons
+    https://api.github.com/repos/devicons/devicon - https://github.com/devicons/devicon 
+    
+    devicons/devicon was originally created by konpa according to the URL they link.
+    Are these two packages forks? I don't know, konpa's is older but
+    https://github.com/file-icons/DevOpicons credits vorillaz in its optimized fork.
+    Unfortunately, both file-icons and vorillaz's versions are abandoned. 
+    They load a much smaller .woff: https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css
+    But kind of pointless if outdated versions of logos and missing newer stuff.
+    Because again, just use SVGs at that point.
+ #}
+
 ---
 <header>
   <h1>{{ i18n[locale].nav.skills }}</h1>
