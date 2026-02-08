@@ -13,3 +13,8 @@
 p a {
   display: inline;
 }
+
+/* Make icons larger than the default 1em for footer */
+footer iconify-icon {
+  font-size: 3em;
+}
