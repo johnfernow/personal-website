@@ -14,6 +14,13 @@ p a {
   display: inline;
 }
 
+/* Center footer icons */
+footer {
+  text-align: center;
+}
+footer nav {
+  display: inline-block;
+}
 /* Make icons larger than the default 1em for footer */
 footer iconify-icon {
   font-size: 3em;
