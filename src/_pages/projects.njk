@@ -10,6 +10,12 @@ layout: base.njk
   <h1>{{ i18n[locale].nav.projects }}</h1>
 </header>
 
+<style>
+  aside a iconify-icon {
+    font-size: 1.5em;
+  }
+</style>
+
 <section>
   <aside>
     <img src="https://raw.githubusercontent.com/johnfernow/media-controls-for-all/master/images/english/logo_en.png" alt="Media Controls for All logo">
@@ -17,7 +23,7 @@ layout: base.njk
     <p>{{ i18n[locale].projects.mcfa.description }}</p>
     <p>
       <a href="https://github.com/johnfernow/media-controls-for-all" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> GitHub
+        <iconify-icon icon="devicon:github"></iconify-icon><noscript>GitHub</noscript>
       </a>
     </p>
   </aside>
@@ -38,7 +44,7 @@ layout: base.njk
     <p>{{ i18n[locale].projects.website.description }}</p>
     <p>
       <a href="https://github.com/johnfernow/personal-website" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> GitHub
+        <iconify-icon icon="devicon:github"></iconify-icon><noscript>GitHub</noscript>
       </a>
     </p>
   </aside>
@@ -60,7 +66,7 @@ layout: base.njk
     <p>{{ i18n[locale].projects.sdcc.description }}</p>
     <p>
       <a href="https://github.com/johnfernow/stable-disk-connection-checker" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> GitHub
+        <iconify-icon icon="devicon:github"></iconify-icon><noscript>GitHub</noscript>
       </a>
     </p>
   </aside>
