@@ -21,6 +21,35 @@ footer {
 footer nav {
   display: inline-block;
 }
+/* Wide card: horizontal image-left layout on desktop */
+section aside.wide {
+  width: var(--width-card-wide);
+  max-width: 100%;
+}
+
+section aside.wide img {
+  max-width: 256px;
+  max-height: 256px;
+  border-radius: var(--border-radius);
+}
+
+@media (min-width: 600px) {
+  section aside.wide {
+    display: grid;
+    grid-template-columns: fit-content(256px) 1fr;
+    gap: 0 1.5rem;
+    align-items: start;
+  }
+
+  section aside.wide > p {
+    width: auto;
+  }
+
+  section aside.wide > p:not(:first-child) {
+    grid-column: 2;
+  }
+}
+
 /* Make icons larger than the default 1em for footer */
 footer iconify-icon {
   font-size: 3em;
