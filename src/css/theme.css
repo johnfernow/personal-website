@@ -24,12 +24,17 @@ p a {
   display: inline;
 }
 
-/* Center footer icons */
+/* Center footer icons and keep them horizontal on all screen sizes */
 footer {
   text-align: center;
 }
 footer nav {
   display: inline-block;
+}
+footer nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 /* Wide card: horizontal image-left layout on desktop */
 section aside.wide {
