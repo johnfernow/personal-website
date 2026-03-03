@@ -31,5 +31,11 @@ All external links that open in new tabs MUST include rel="noopener"
 for [security
 reasons](https://developers.google.com/web/tools/lighthouse/audits/noopener).
 
+### MVP.css gotcha: images in `<header>`
+MVP.css only applies `max-width: 100%` to images inside `<section>` and
+`<article>` elements (`section img, article img`). Images higher up in the DOM 
+have no max-width constraint and will overflow on mobile. Keep
+page content (especially images) inside `<section>` elements.
+
 ## Publishing
 * TODO: add steps  
