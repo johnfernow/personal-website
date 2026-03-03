@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'HOMOARAK';
+  src: url('/fonts/HOMOARAK.woff') format('woff');
+  font-display: swap;
+}
+
 /* Dark theme overrides for MVP.css */
 :root {
   --color-bg: #121212;
@@ -7,6 +13,14 @@
   --color-link: #6ea8fe;
   --color-accent: #6ea8fe;
   --color-shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Site title font */
+header nav > a {
+  font-family: 'HOMOARAK', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 /* Reduce excessive spacing from MVP.css defaults */

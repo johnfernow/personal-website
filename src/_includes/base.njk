@@ -27,10 +27,7 @@
 <body>
   <header>
     <nav>
-      {# Left-aligned element #}
-      {# <a href="/{{ locale }}/">{{ site.title }}</a> #}
-      <a href="/{{ locale }}/"> </a>
-      {# ^Placeholder because without it, whole navbar is left-aligned #}
+      <a href="/{{ locale }}/">{{ site.title }}</a>
       <ul>
         <li><a href="/{{ locale }}/">{{ i18n[locale].nav.home }}</a></li>
         <li><a href="/{{ locale }}/skills/">{{ i18n[locale].nav.skills }}</a></li>
