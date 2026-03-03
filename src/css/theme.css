@@ -9,6 +9,16 @@
   --color-shadow: rgba(0, 0, 0, 0.3);
 }
 
+/* Reduce excessive spacing from MVP.css defaults */
+nav {
+  margin-bottom: 0rem;
+}
+
+header, main, footer {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 /* Make links in paragraphs flow inline with text */
 p a {
   display: inline;
