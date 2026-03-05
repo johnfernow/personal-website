@@ -1,4 +1,8 @@
 _site/
+node_modules/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.scratch
+.DS_Store
+test-results/

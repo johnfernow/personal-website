@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags for Bootstrap -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="/archive/2025/vendor/css/bootstrap.min.css">
+
+<!-- Bootstrap optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="/archive/2025/vendor/js/jquery-3.3.1.min.js"></script>
+<script src="/archive/2025/vendor/js/popper.min.js"></script>
+<script src="/archive/2025/vendor/js/bootstrap.min.js"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="/archive/2025/vendor/css/fontawesome-all.min.css">
+
+<title>John Fernow</title>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/archive/2025/css/theme.css">
+<link rel="stylesheet" href="/archive/2025/css/footer.css">
+
+<!-- Favicon and icons for "add to home screen" feature in mobile browsers -->
+<link rel="apple-touch-icon" sizes="57x57" href="/archive/2025/images/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/archive/2025/images/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/archive/2025/images/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/archive/2025/images/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/archive/2025/images/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/archive/2025/images/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/archive/2025/images/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/archive/2025/images/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/archive/2025/images/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/archive/2025/images/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/archive/2025/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/archive/2025/images/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/archive/2025/images/favicons/favicon-16x16.png">
+<!-- <link rel="manifest" href="/archive/2025/images/favicons/manifest.json"> -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/archive/2025/images/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Custom JS -->
+<script src="/archive/2025/js/jquery.localize.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/archive/2025/js/set_language.js" type="text/javascript" charset="utf-8"></script>
+<script src="/archive/2025/js/load_localization.js" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/archive/2025/css/projects.css">
+  </head>
+
+  <body>
+    <script type="text/javascript" charset="utf-8">
+  loadLocalization("header");
+</script>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand" href="/archive/2025">John Fernow</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a data-localize="header.skills" class="nav-link" href="/archive/2025/skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a data-localize="header.projects" class="nav-link" href="/archive/2025/projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a data-localize="header.education" class="nav-link" href="/archive/2025/education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a data-localize="header.volunteer" class="nav-link" href="/archive/2025/volunteer">Volunteer Work</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Videos</a>
+      </li> -->
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a data-localize="header.language" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Language
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a>
+          <a class="dropdown-item" href="#" onclick="setLanguage('es')">Español</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <main>
+
+      <!-- TODO: refactor — card-decks aren't really that responsive. Right now,
+                 it changes from a ton of columns to 1 one column. Would be
+                 better if they gradually reducded to fewer columns,
+                 from n to n-1 to ... to 4 to 3 to 2 to 1. -->
+
+      <script type="text/javascript" charset="utf-8">
+       loadLocalization("education");
+      </script>
+
+      <div class="card-deck" id="projects-deck">
+
+        <div class="card">
+          <img src="/archive/2025/vendor/images/Denison-logo.svg"
+               class="card-img-top" alt="Denison University logo">
+          <div class="card-body">
+            <h5 class="card-title">Denison University</h5>
+            <h6 data-localize="denison.subtitle" class="card-subtitle mb-2 text-muted">Undergrad</h6>
+            <p class="card-text">
+              <span data-localize="denison.part1">
+                I graduated May 16, 2020 with a Bachelor's degree in Computer Science.
+              </span>
+              <a data-localize="denison.part2"
+                 href="https://web.archive.org/web/20191115152736/https://www.usnews.com/best-colleges/denison-university-3042/overall-rankings"
+                 target="_blank" rel="noopener noreferrer">
+                 According to the 2020 U.S. News & World Report college and
+                 university rankings</a>,
+              <span data-localize="denison.part3">
+                Denison ranked 45th in "Best Undergraduate Teaching" in the US.
+                A compilation of reviews can be viewed
+              </span>
+              <a data-localize="denison.part4"
+                 href="https://denison.edu/campus/about/rankings-reviews"
+                 target="_blank" rel="noopener noreferrer">here</a>.
+            </p>
+            <p data-localize="denison.part5">At Denison, I took the following classes:</p>
+            <ul>
+              <li data-localize="denison.classes.data-structures">Data Structures</li>
+              <li data-localize="denison.classes.data-systems">Data Systems</li>
+              <li data-localize="denison.classes.computer-systems">Computer Systems</li>
+              <li data-localize="denison.classes.algorithms">Algorithm Design and Analysis</li>
+              <li data-localize="denison.classes.game-design">Game Design</li>
+              <li data-localize="denison.classes.fog">Fog, Cloud Systems and the Internet of Things</li>
+              <li data-localize="denison.classes.mathematical-foundations">Mathematical Foundations of Computer Science</li>
+              <li data-localize="denison.classes.intermediate-cs">Intermediate Computer Science</li>
+              <li data-localize="denison.classes.intro-cs">Introduction to Computer Science: Scientific Data</li>
+            </ul>
+            <!-- TODO #28 -- add transcripts once they become available -->
+            <!-- <h5 class="card-text">
+              <a class="nav-link active" href="ADD-URL-HERE" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-pdf"></i> download transcript
+              </a>
+            </h5> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/archive/2025/vendor/images/Logo_Universidad_Adolfo_Ibanez.jpg"
+               class="card-img-top" alt="Universidad Adolfo Ibáñez logo">
+          <div class="card-body">
+            <h5 class="card-title">Universidad Adolfo Ibáñez</h5>
+            <h6 data-localize="uai.subtitle" class="card-subtitle mb-2 text-muted">Study Abroad Semester</h6>
+            <p class="card-text">
+              <span data-localize="uai.part1">
+                In 2019 (when I studied there), Universidad Adolfo Ibáñez was
+                ranked the 13th best university in Chile
+              </span>
+              <a data-localize="uai.part2"
+                 href="https://web.archive.org/web/20191217075753/https://mba.americaeconomia.com/articulos/notas/conozca-los-resultados-del-ranking-de-las-mejores-universidades-de-chile-2019"
+                 target="_blank" rel="noopener noreferrer">
+                 according to Consejo Superior de Investigaciones Científicas
+              </a>
+              <em data-localize="uai.part3">(Spanish National Research Council)</em>
+              <span data-localize="uai.part4"> and </span>
+              <a data-localize="uai.part5"
+                 href="https://web.archive.org/web/20191217075753/https://mba.americaeconomia.com/articulos/notas/conozca-los-resultados-del-ranking-de-las-mejores-universidades-de-chile-2019"
+                 target="_blank" rel="noopener noreferrer">
+                 the 15th best by América Economía.
+              </a>
+              <span data-localize="uai.part6">
+                It was also ranked in the top 60 best universities in Latin America
+              </span>
+              <a data-localize="uai.part7" href="https://web.archive.org/web/20191219042429/https://www.timeshighereducation.com/world-university-rankings/adolfo-ibanez-university"
+                 target="_blank" rel="noopener noreferrer">
+                 according to Times Higher Education.
+              </a>
+            </p>
+
+            <p data-localize="uai.part8">
+              At Universidad Adolfo Ibáñez, I took the following classes:
+            </p>
+            <ul>
+              <li data-localize="uai.classes.databases">Databases</li>
+              <li data-localize="uai.classes.networking">Networking</li>
+              <li data-localize="uai.classes.professional">Professional Programming</li>
+            </ul>
+            <!-- TODO #28 -- add transcripts once they become available -->
+            <!-- <h5 class="card-text">
+              <a class="nav-link active" href="ADD-URL-HERE" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-pdf"></i> download transcript
+              </a>
+            </h5> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/archive/2025/images/Ohio_University_Logo.svg"
+               class="card-img-top" alt="Ohio University logo"
+               style="background: white;">
+          <div class="card-body">
+            <h5 class="card-title">Ohio University Lancaster</h5>
+            <h6 data-localize="oul.subtitle" class="card-subtitle mb-2 text-muted">Dual-enrollment during high school</h6>
+            <p data-localize="oul.part1" class="card-text">
+              During my senior year of high school, I attended the Lancaster
+              branch of Ohio University part-time, where I took
+              general-education courses, including the following:
+            </p>
+            <ul>
+              <li data-localize="oul.classes.speaking">Public Speaking</li>
+              <li data-localize="oul.classes.psychology">Introduction to Psychology</li>
+              <li data-localize="oul.classes.sociology">Introduction to Sociology</li>
+            </ul>
+            <!-- TODO #28 -- add transcripts once they become available -->
+            <!-- <h5 class="card-text">
+              <a class="nav-link active" href="ADD-URL-HERE" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-pdf"></i> download transcript
+              </a>
+            </h5> -->
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+    <span id="footer" style="font-size: 2rem;">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" href="https://github.com/johnfernow" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.linkedin.com/in/john-fernow" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <!-- TODO: Uncomment once I have higher reputation -->
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="https://stackoverflow.com/users/11870521/johnfernow" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-stack-overflow"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://stackexchange.com/users/16431912/johnfernow" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-stack-exchange"></i>
+      </a>
+    </li> -->
+    <!-- TODO: Uncomment once launched and has videos uploaded -->
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="#">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li> -->
+    <li class="nav-item">
+      <a class="nav-link" href="mailto:johnfernow@gmail.com">
+        <i class="far fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</span>
+
+  </body>
+</html>

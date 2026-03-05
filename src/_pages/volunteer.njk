@@ -1,0 +1,25 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/volunteer/"
+layout: base.njk
+---
+<header>
+  <h1>{{ i18n[locale].volunteer.title }}</h1>
+</header>
+
+<section>
+  <aside>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/American_Red_Cross_logo.svg" alt="American Red Cross logo">
+    <h3>{{ i18n[locale].volunteer.redCross.name }}</h3>
+    <p>{{ i18n[locale].volunteer.redCross.description }}</p>
+  </aside>
+
+  <aside>
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/ee/Logo_for_Citizens_Climate_Lobby_2015.png" alt="Citizens Climate Lobby logo">
+    <h3>{{ i18n[locale].volunteer.ccl.name }}</h3>
+    <p>{{ i18n[locale].volunteer.ccl.description }}</p>
+  </aside>
+</section>

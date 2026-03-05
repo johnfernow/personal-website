@@ -1,0 +1,17 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+main {
+  margin: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: #424242;
+}

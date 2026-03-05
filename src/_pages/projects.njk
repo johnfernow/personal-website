@@ -1,0 +1,73 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/projects/"
+layout: base.njk
+---
+<header>
+  <h1>{{ i18n[locale].nav.projects }}</h1>
+</header>
+
+<style>
+  aside a iconify-icon {
+    font-size: 1.5em;
+  }
+</style>
+
+<section>
+  <aside>
+    <img src="https://raw.githubusercontent.com/johnfernow/media-controls-for-all/master/images/english/logo_en.png" alt="Media Controls for All logo">
+    <h3>{{ i18n[locale].projects.mcfa.title }}</h3>
+    <p>{{ i18n[locale].projects.mcfa.description }}</p>
+    <p>
+      <a href="https://github.com/johnfernow/media-controls-for-all" target="_blank" rel="noopener noreferrer">
+        <iconify-icon icon="devicon:github"></iconify-icon><noscript>GitHub</noscript>
+      </a>
+    </p>
+  </aside>
+
+  <aside>
+    <img src="/images/measles-mania-title.jpg" alt="Measles Mania logo">
+    <h3>{{ i18n[locale].projects.measles.title }}</h3>
+    <p>{{ i18n[locale].projects.measles.description }}</p>
+    <p>
+      <a href="https://personal.denison.edu/~lalla/314s19/final/measlesmania/index.html" target="_blank" rel="noopener noreferrer">
+        {{ i18n[locale].projects.measles.link }}
+      </a>
+    </p>
+  </aside>
+
+  <aside>
+    <h3>{{ i18n[locale].projects.website.title }}</h3>
+    <p>{{ i18n[locale].projects.website.description }}</p>
+    <p>
+      <a href="https://github.com/johnfernow/personal-website" target="_blank" rel="noopener noreferrer">
+        <iconify-icon icon="devicon:github"></iconify-icon><noscript>GitHub</noscript>
+      </a>
+    </p>
+  </aside>
+
+  <aside>
+    <img src="/images/mydenison-logo.jpg" alt="MyDenison logo">
+    <h3>{{ i18n[locale].projects.mydenison.title }}</h3>
+    <p>{{ i18n[locale].projects.mydenison.description }}</p>
+  </aside>
+
+  <aside>
+    <img src="/images/UAI-logo.jpg" alt="Universidad Adolfo Ibáñez logo">
+    <h3>{{ i18n[locale].projects.lila.title }}</h3>
+    <p>{{ i18n[locale].projects.lila.description }}</p>
+  </aside>
+
+  <aside>
+    <h3>{{ i18n[locale].projects.sdcc.title }}</h3>
+    <p>{{ i18n[locale].projects.sdcc.description }}</p>
+    <p>
+      <a href="https://github.com/johnfernow/stable-disk-connection-checker" target="_blank" rel="noopener noreferrer">
+        <iconify-icon icon="devicon:github"></iconify-icon><noscript>GitHub</noscript>
+      </a>
+    </p>
+  </aside>
+</section>

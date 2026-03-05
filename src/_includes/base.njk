@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html color-mode="user" lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | {{ site.title }}</title>
+
+  <!-- MVP.css for classless styling -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mvp.css@1.17.2/mvp.min.css">
+
+  <!-- Custom theme overrides -->
+  <link rel="stylesheet" href="/css/theme.css">
+
+  <!-- Unify all icon sets, only load what is needed: https://github.com/iconify -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon/dist/iconify-icon.min.js"></script>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <meta name="theme-color" content="#121212">
+
+  {% for css in extraCss %}
+  <link rel="stylesheet" href="{{ css }}">
+  {% endfor %}
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/{{ locale }}/">{{ site.title }}</a>
+      <ul>
+        <li><a href="/{{ locale }}/">{{ i18n[locale].nav.home }}</a></li>
+        <li><a href="/{{ locale }}/skills/">{{ i18n[locale].nav.skills }}</a></li>
+        <li><a href="/{{ locale }}/projects/">{{ i18n[locale].nav.projects }}</a></li>
+        <li><a href="/{{ locale }}/education/">{{ i18n[locale].nav.education }}</a></li>
+        <li><a href="/{{ locale }}/volunteer/">{{ i18n[locale].nav.volunteer }}</a></li>
+        <li>
+          <a href="{{ page.url | replace('/' + locale + '/', '/' + i18n[locale].nav.otherLang + '/') }}">
+            {{ i18n[locale].nav.otherLangName }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/johnfernow" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <iconify-icon icon="devicon:github"></iconify-icon>
+            <noscript>GitHub</noscript>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/john-fernow" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <iconify-icon icon="devicon:linkedin"></iconify-icon>
+            <noscript>LinkedIn</noscript>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:johnfernow@gmail.com" aria-label="Email">
+            <iconify-icon icon="streamline-ultimate-color:read-email-monitor"></iconify-icon>
+            <noscript>Email</noscript>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

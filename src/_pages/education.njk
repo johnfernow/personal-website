@@ -1,0 +1,70 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/education/"
+layout: base.njk
+---
+<header>
+  <h1>{{ i18n[locale].nav.education }}</h1>
+</header>
+
+<section>
+  <aside>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Denison-logo.svg" alt="Denison University logo">
+    <h3>{{ i18n[locale].education.denison.name }}</h3>
+    <p><em>{{ i18n[locale].education.denison.subtitle }}</em></p>
+    <p>
+      {{ i18n[locale].education.denison.part1 }}
+      <a href="https://web.archive.org/web/20191115152736/https://www.usnews.com/best-colleges/denison-university-3042/overall-rankings" target="_blank" rel="noopener noreferrer">{{ i18n[locale].education.denison.part2 }}</a>,
+      {{ i18n[locale].education.denison.part3 }}
+      <a href="https://denison.edu/campus/about/rankings-reviews" target="_blank" rel="noopener noreferrer">{{ i18n[locale].education.denison.here }}</a>.
+    </p>
+    <p>{{ i18n[locale].education.denison.part5 }}</p>
+    <ul>
+      <li>{{ i18n[locale].education.denison.classes.dataStructures }}</li>
+      <li>{{ i18n[locale].education.denison.classes.dataSystems }}</li>
+      <li>{{ i18n[locale].education.denison.classes.computerSystems }}</li>
+      <li>{{ i18n[locale].education.denison.classes.algorithms }}</li>
+      <li>{{ i18n[locale].education.denison.classes.gameDesign }}</li>
+      <li>{{ i18n[locale].education.denison.classes.fog }}</li>
+      <li>{{ i18n[locale].education.denison.classes.mathFoundations }}</li>
+      <li>{{ i18n[locale].education.denison.classes.intermediateCs }}</li>
+      <li>{{ i18n[locale].education.denison.classes.introCs }}</li>
+    </ul>
+  </aside>
+
+  <aside>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Logo_Universidad_Adolfo_Ib%C3%A1%C3%B1ez.JPG" alt="Universidad Adolfo Ibáñez logo">
+    <h3>{{ i18n[locale].education.uai.name }}</h3>
+    <p><em>{{ i18n[locale].education.uai.subtitle }}</em></p>
+    <p>
+      {{ i18n[locale].education.uai.part1 }}
+      <a href="https://web.archive.org/web/20191217075753/https://mba.americaeconomia.com/articulos/notas/conozca-los-resultados-del-ranking-de-las-mejores-universidades-de-chile-2019" target="_blank" rel="noopener noreferrer">{{ i18n[locale].education.uai.part2 }}</a>
+      {% if i18n[locale].education.uai.part3 %}<em>{{ i18n[locale].education.uai.part3 }}</em>{% endif %}
+      {{ i18n[locale].education.uai.and }}
+      <a href="https://web.archive.org/web/20191217075753/https://mba.americaeconomia.com/articulos/notas/conozca-los-resultados-del-ranking-de-las-mejores-universidades-de-chile-2019" target="_blank" rel="noopener noreferrer">{{ i18n[locale].education.uai.part5 }}</a>
+      {{ i18n[locale].education.uai.part6 }}
+      <a href="https://web.archive.org/web/20191219042429/https://www.timeshighereducation.com/world-university-rankings/adolfo-ibanez-university" target="_blank" rel="noopener noreferrer">{{ i18n[locale].education.uai.part7 }}</a>
+    </p>
+    <p>{{ i18n[locale].education.uai.part8 }}</p>
+    <ul>
+      <li>{{ i18n[locale].education.uai.classes.databases }}</li>
+      <li>{{ i18n[locale].education.uai.classes.networking }}</li>
+      <li>{{ i18n[locale].education.uai.classes.professional }}</li>
+    </ul>
+  </aside>
+
+  <aside>
+    <img src="/images/Ohio_University_Logo.svg" alt="Ohio University logo">
+    <h3>{{ i18n[locale].education.oul.name }}</h3>
+    <p><em>{{ i18n[locale].education.oul.subtitle }}</em></p>
+    <p>{{ i18n[locale].education.oul.part1 }}</p>
+    <ul>
+      <li>{{ i18n[locale].education.oul.classes.speaking }}</li>
+      <li>{{ i18n[locale].education.oul.classes.psychology }}</li>
+      <li>{{ i18n[locale].education.oul.classes.sociology }}</li>
+    </ul>
+  </aside>
+</section>
