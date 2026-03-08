@@ -33,6 +33,11 @@ header, main, footer {
   padding-bottom: 0rem;
 }
 
+/* Preserve aspect ratio while allowing width/height attributes for CLS prevention */
+img {
+  height: auto;
+}
+
 /* Make links in paragraphs flow inline with text */
 p a {
   display: inline;
